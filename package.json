@@ -1,0 +1,15 @@
+{
+  "name": "promisify-ts",
+  "version": "1.0.0",
+  "description": "Compile-time functional type for convert common interfaces to it's promisified variant",
+  "homepage": "https://github.com/origin-yaropolk/promisify-ts",
+  "keywords": ["promisify", "promisified", "inteface", "async", "promisify-ts"],
+  "author": "Egor Kushnarev",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "exports": {
+    ".": {
+        "default": "./index.ts"
+      }
+  }
+}
