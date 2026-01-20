@@ -1,6 +1,9 @@
 # promisify-ts
 Compile-time functional type for convert common interfaces to it's promisified variant
 
+> [!NOTE]
+> This package transforms types in compile-time only, runtime logic and `tsc` output not affected
+
 ## when is this useful?
 It is good tool for converting your sync API interfaces that is shared through async transport like Electron IPC
 
@@ -115,4 +118,4 @@ type PromisifiedInterface = {
 ```
 
 ## thanks
-Special thanks for [@Nipheris](https://github.com/Nipheris) who once helped in this brainstorming
+Special thanks for [@Nipheris](https://github.com/Nipheris) and [@HardParadox](https://github.com/HardParadox) who once helped in this brainstorming
