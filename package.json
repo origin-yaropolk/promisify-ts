@@ -3,13 +3,33 @@
   "version": "1.0.0",
   "description": "Compile-time functional type for convert common interfaces to it's promisified variant",
   "homepage": "https://github.com/origin-yaropolk/promisify-ts",
-  "keywords": ["promisify", "promisified", "inteface", "async", "promisify-ts"],
+  "keywords": [
+    "promisify",
+    "promisified",
+    "inteface",
+    "async",
+    "promisify-ts"
+  ],
   "author": "Egor Kushnarev",
   "license": "MIT",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.28.1",
   "exports": {
     ".": {
-        "default": "./index.ts"
-      }
+      "default": "./index.ts"
+    }
+  },
+  "scripts": {
+    "test": " jest -c jest.config.js"
+  },
+  "volta": {
+    "node": "22.22.0",
+    "pnpm": "10.28.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "tsafe": "^1.8.12",
+    "typescript": "^5.9.3"
   }
 }
