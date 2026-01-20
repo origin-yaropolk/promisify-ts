@@ -77,7 +77,7 @@ This may be useful if further conversions of the interface type are expected.
 import { Promisify } from "promisify-ts";
 
 interface MyInterface<U> {
-    as<T>(): T;
+    as<R>(): R;
     transformStringToU(value: string): U;
     transformUToString(value: U): string;
 }

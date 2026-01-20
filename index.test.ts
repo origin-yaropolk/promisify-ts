@@ -22,7 +22,6 @@ describe('Promisify tests', () => {
         type PromisifiedBasicInterface = Promisify<BasicInterface>;
         const instance = getFakeInstance<PromisifiedBasicInterface>();
 
-
         it('should transform base type to promise', () => {
             type Got = typeof instance.getString;
             type Expected = (_: number) => Promise<string>;
