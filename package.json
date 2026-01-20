@@ -1,6 +1,6 @@
 {
   "name": "promisify-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile-time functional type for convert common interfaces to it's promisified variant",
   "homepage": "https://github.com/origin-yaropolk/promisify-ts",
   "keywords": [
