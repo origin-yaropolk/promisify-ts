@@ -92,7 +92,7 @@ will tranform into
 
 ```ts
 type PromisifiedInterface = {
-    as<R>(): R                                          // <R>() => R -> <R>() => Promise<R>
+    as<R>(): R;                                         // <R>() => R -> <R>() => Promise<R>
     transformStringToU(value: string): Promise<number>; // (string) => number -> (string) => Promise<number>
     transformUToString(value: number): Promise<string>; // (number) => string -> (number) => Promise<string>
 }
